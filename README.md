@@ -1,90 +1,95 @@
-{% if False %}
+#
+# My Personal Portfilio Website (Django)
 
-# Introduction
+Personal portfolio website made with Django framework in the backend, and with CSS, JS, and Bootstrap for the frontend. It is a dynamic site so that you can control the content of the site through the admin area
 
-The goal of this project is to provide minimalistic django project template that everyone can use, which _just works_ out of the box and has the basic setup you can expand on. 
+## Features
 
-Template is written with django 1.11 and python 3 in mind.
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
 
-![Default Home View](__screenshots/home.png?raw=true "Title")
 
-### Main features
+## Demo
 
-* Separated dev and production settings
+(https://user-images.githubusercontent.com/104616403/210330707-c8607c2b-6929-435f-bb58-d3176454b4fa.gif)
 
-* Example app with custom user model
 
-* Bootstrap static files included
+## Screenshots
 
-* User registration and logging in as demo
+![image](https://user-images.githubusercontent.com/104616403/210331817-c266db91-fcfa-40e2-99ad-8c857c55051d.png)
 
-* Procfile for easy deployments
+![image](https://user-images.githubusercontent.com/104616403/210332043-779ddac8-b1a7-4414-b5bd-ebe67d4200df.png)
+![image](https://user-images.githubusercontent.com/104616403/210332104-4a4556c7-5583-43bc-b39a-bc62b6b5e367.png)
 
-* Separated requirements files
+![image](https://user-images.githubusercontent.com/104616403/210332171-190afc75-9174-4ffa-b9d2-3541b5fd0ebb.png)
 
-* SQLite by default if no env variable is set
+![image](https://user-images.githubusercontent.com/104616403/210332226-cbfbe6e5-732d-4442-9aae-218b6e6292b0.png)
 
-# Usage
+![image](https://user-images.githubusercontent.com/104616403/210332284-9d69c838-ab8e-4e71-ac6b-2f0ed514561a.png)
 
-To use this template to start your own project:
 
-### Existing virtualenv
 
-If your project is already in an existing python3 virtualenv first install django by running
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/burhanmohammad)
 
-    $ pip install django
-    
-And then run the `django-admin.py` command to start the new project:
 
-    $ django-admin.py startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
-      --extension=py,md \
-      <project_name>
-      
-### No virtualenv
+## 🛠 Skills
+Javascript, HTML, CSS, python, Django, Bootstrap...
 
-This assumes that `python3` is linked to valid installation of python 3 and that `pip` is installed and `pip3`is valid
-for installing python 3 packages.
 
-Installing inside virtualenv is recommended, however you can start your project without virtualenv too.
+# Hi, I'm Mohammad Burhan! 👋
 
-If you don't have django installed for python 3 then run:
 
-    $ pip3 install django
-    
-And then:
+## 🚀 About Me
+I'm a full stack developer...
 
-    $ python3 -m django startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
-      --extension=py,md \
-      <project_name>
-      
-      
-After that just install the local dependencies, run migrations, and start the server.
 
-{% endif %}
+## Feedback
 
-# {{ project_name|title }}
+If you have any feedback, please reach out to us at burhanmohammad1234@out.com
 
-# Getting Started
 
-First clone the repository from Github and switch to the new directory:
+## Tech Stack
 
-    $ git clone git@github.com/USERNAME/{{ project_name }}.git
-    $ cd {{ project_name }}
-    
-Activate the virtualenv for your project.
-    
-Install project dependencies:
+**Client:** Html, css, Bootstrap
 
-    $ pip install -r requirements/local.txt
-    
-    
-Then simply apply the migrations:
+**Server:** python, Django
 
-    $ python manage.py migrate
-    
 
-You can now run the development server:
+## Run Locally
 
-    $ python manage.py runserver
+Clone the project
+
+```bash
+  git clone https://github.com/BurhanMohammad/Django-portfilio-website.git
+```
+
+Go to the project directory
+
+```bash
+  cd Django-portfilio-websitet
+```
+
+MAKE  Migration
+
+```bash
+  python manage.py makemigrations
+```
+
+MAKE  Migration
+
+```bash
+  python manage.py migrate     
+```
+Start the server
+
+```bash
+  python manage.py runserver     
+```
+
+
+## Authors
+
+- [@Mohammad Burhan](https://github.com/BurhanMohammad)
+
