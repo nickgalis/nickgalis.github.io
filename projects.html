@@ -18,7 +18,31 @@
     </nav>
     <section>
         <h1>Projects</h1>
-        <p>Here are some of the projects I have worked on.</p>
+        <div class="project">
+            <h2>Custom Linux Shell and Commands</h2>
+            <p><strong>Technologies:</strong> C, Data Pipelines, Multiprocessing</p>
+            <p>Created custom command line shell that supports all BASH commands, piping and redirection of stdin, stdout and stderr using the fork, strtok and pipe commands in C. Integrates Simpson’s 4-slot shared memory buffer for asynchronous processing and a ring buffer for synchronous processing. The system visualizes over 10,000 data points per second using GNUplot. Demonstrated ability to work with multiple threads and processes in Linux.</p>
+        </div>
+        <div class="project">
+            <h2>WiFi Controlled Drone</h2>
+            <p><strong>Technologies:</strong> C, Embedded, Arduino IDE</p>
+            <p>Modified Betaflight firmware on TinyHawk drone to accept MSP communication protocol. Created custom web server to control the drone over WiFi. Soldered an ESP32 board to drone to send MSP signals over WiFi. Programmed ESP32 board with Arduino IDE to convert signals sent over WiFi to MSP code. Built controller for drone with HTML.</p>
+        </div>
+        <div class="project">
+            <h2>String Searching</h2>
+            <p><strong>Technologies:</strong> C, regex, assembly</p>
+            <p>Created a function called "finds" to traverse a directory hierarchy searching for files that contain a specified string. Created regex engine using NFA and DFA in order to accept wildcard characters in the finds function. Implemented our own printf function with variable arguments from scratch, using inline assembly to retrieve arguments based on the x86 calling convention. The finds function would print the line containing the specified regex or string using the implemented printf function.</p>
+        </div>
+        <div class="project">
+            <h2>ML Housing Cost Predictor</h2>
+            <p><strong>Technologies:</strong> Scikit-Learn, Python, Snowflake</p>
+            <p>Used Snowpark Python User-Defined Functions (UDFs) to predict median housing prices in California. The pipeline includes a RandomForestRegressor ML model used on housing data to determine prices. Fitted/trained the pipeline using a Snowpark Python Stored Procedure (SPROC) and then save the pipeline to a Snowflake stage from which it can be loaded and run. Successfully applied the housing price predictor to Real Estate data, showcasing its practical utility and effectiveness in predicting market trends.</p>
+        </div>
+        <div class="project">
+            <h2>Raspberry Pi Radio Telescope</h2>
+            <p><strong>Technologies:</strong> Python, BASH, Matplotlib, Embedded, Git</p>
+            <p>Integrated radio frequency (RF) components, such as antennas and receivers, with the Raspberry Pi to capture and process celestial signals, demonstrating a hands-on approach to astrophysical programming and instrumentation. Developed custom Python scripts to acquire, process, and analyze radio signals captured by the Raspberry Pi-based radio telescope. Utilized Matplotlib to visualize frequencies of received signals.</p>
+        </div>
     </section>
 </body>
 </html>
