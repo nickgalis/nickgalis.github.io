@@ -35,3 +35,11 @@ nav ul li a:hover {
 section {
     padding: 2em;
 }
+
+.assignment {
+    margin-bottom: 2em;
+}
+
+.assignment h2 {
+    margin-top: 0;
+}
